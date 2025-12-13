@@ -60,9 +60,11 @@ export function Navbar() {
           ))}
           <div className="h-4 w-px bg-border mx-2" />
           <div className="flex items-center gap-2">
-            <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-primary">
-              <Linkedin className="h-4 w-4" />
-            </Button>
+            <a href="https://www.linkedin.com/in/jackmondry/" target="_blank" rel="noopener noreferrer">
+              <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-primary">
+                <Linkedin className="h-4 w-4" />
+              </Button>
+            </a>
           </div>
         </div>
 
@@ -93,9 +95,11 @@ export function Navbar() {
               </Link>
             ))}
             <div className="border-t border-border pt-4 flex gap-4">
-              <Button variant="outline" size="sm" className="w-full gap-2">
-                <Linkedin className="h-4 w-4" /> LinkedIn
-              </Button>
+              <a href="https://www.linkedin.com/in/jackmondry/" target="_blank" rel="noopener noreferrer" className="w-full">
+                <Button variant="outline" size="sm" className="w-full gap-2">
+                  <Linkedin className="h-4 w-4" /> LinkedIn
+                </Button>
+              </a>
             </div>
           </div>
         </div>
