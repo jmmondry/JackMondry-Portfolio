@@ -72,8 +72,8 @@ export function Hero() {
                 alt="Jack Mondry" 
                 className="relative z-10 transition-all duration-700 object-cover w-full h-auto"
                 style={{ 
-                  maskImage: "linear-gradient(to bottom, black 80%, transparent 100%)",
-                  WebkitMaskImage: "linear-gradient(to bottom, black 80%, transparent 100%)"
+                  maskImage: "radial-gradient(ellipse at center, black 50%, transparent 100%)",
+                  WebkitMaskImage: "radial-gradient(ellipse at center, black 50%, transparent 100%)"
                 }}
               />
 
