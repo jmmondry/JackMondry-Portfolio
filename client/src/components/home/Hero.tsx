@@ -74,8 +74,7 @@ export function Hero() {
               <img 
                 src={portraitImg} 
                 alt="Jack Mondry" 
-                className="relative z-10 rounded-xl shadow-2xl transition-all duration-700 object-cover w-full h-auto border border-white/10 invert contrast-125 brightness-90 mix-blend-screen"
-                style={{ filter: "invert(1) grayscale(1) contrast(1.2) brightness(0.8)" }}
+                className="relative z-10 rounded-xl shadow-2xl transition-all duration-700 object-cover w-full h-auto border border-white/10"
               />
 
               {/* Technical Caption */}
