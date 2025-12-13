@@ -67,14 +67,14 @@ export function Hero() {
               transition={{ delay: 0.2, duration: 1 }}
               className="relative w-full max-w-md"
             >
-              {/* Decorative Frame elements */}
-              <div className="absolute -inset-4 border border-white/5 rounded-2xl z-0"></div>
-              <div className="absolute -inset-1 bg-gradient-to-tr from-white/10 to-transparent rounded-xl z-0"></div>
-              
               <img 
                 src={portraitImg} 
                 alt="Jack Mondry" 
-                className="relative z-10 rounded-xl shadow-2xl transition-all duration-700 object-cover w-full h-auto border border-white/10"
+                className="relative z-10 transition-all duration-700 object-cover w-full h-auto"
+                style={{ 
+                  maskImage: "linear-gradient(to bottom, black 80%, transparent 100%)",
+                  WebkitMaskImage: "linear-gradient(to bottom, black 80%, transparent 100%)"
+                }}
               />
 
               {/* Technical Caption */}
