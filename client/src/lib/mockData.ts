@@ -1,5 +1,5 @@
 import { LucideIcon, Activity, Brain, Award, Globe, Cpu, Microscope, Settings, ShieldCheck, Users } from "lucide-react";
-import dentalRobotImg from "@assets/generated_images/dental_surgical_robot_system.png";
+import dentalRobotImg from "@assets/generated_images/perceptive-style_dental_surgical_robot.png";
 import neuroImg from "@assets/generated_images/mri_guided_neurosurgery_system.png";
 import filtrationImg from "@assets/generated_images/cerebral_spinal_fluid_filtration_device.png";
 import miniRobotImg from "@assets/generated_images/miniature_surgical_robot.png";

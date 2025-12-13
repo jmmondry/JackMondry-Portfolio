@@ -1,0 +1,104 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Cascadia Code",
+      "role": "monospace"
+    },
+    {
+      "family": "Source Code Pro",
+      "role": "monospace"
+    },
+    {
+      "family": "Menlo",
+      "role": "monospace"
+    },
+    {
+      "family": "AcidGrotesk",
+      "role": "body"
+    },
+    {
+      "family": "Helvetica Neue",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#8662DC",
+    "accent": "#CDFF9B",
+    "background": "#F3F3F3",
+    "textPrimary": "#0A0A0C",
+    "link": "#CDFF9B"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "AcidGrotesk",
+      "heading": "AcidGrotesk"
+    },
+    "fontStacks": {
+      "heading": [
+        "AcidGrotesk",
+        "Helvetica Neue",
+        "arial",
+        "sans-serif"
+      ],
+      "body": [
+        "AcidGrotesk",
+        "Helvetica Neue",
+        "arial",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Regular",
+        "ui-monospace",
+        "Cascadia Code",
+        "Source Code Pro",
+        "Menlo",
+        "Consolas",
+        "DejaVu Sans Mono",
+        "monospace"
+      ]
+    },
+    "fontSizes": {
+      "h1": "50px",
+      "h2": "50px",
+      "body": "12px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "0px"
+  },
+  "components": {
+    "input": {
+      "borderColor": "#CCCCCC",
+      "borderRadius": "0px"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.svg",
+    "favicon": "https://www.perceptive.io/favicons/apple-touch-icon.png",
+    "ogImage": "File saved at: attached_assets/ogImage.png"
+  },
+  "__framework_hints": [
+    "SEOmatic"
+  ],
+  "__llm_logo_reasoning": {
+    "selectedIndex": 0,
+    "reasoning": "The first logo candidate matches the brand name 'Perceptive' and is located in the header, linking to the homepage, making it the most suitable choice.",
+    "confidence": 0.95
+  },
+  "personality": {
+    "tone": "modern",
+    "energy": "medium",
+    "targetAudience": "tech-savvy professionals"
+  },
+  "designSystem": {
+    "framework": "unknown",
+    "componentLibrary": null
+  },
+  "confidence": {
+    "buttons": 0.9,
+    "colors": 0.95,
+    "overall": 0.925
+  }
+}
