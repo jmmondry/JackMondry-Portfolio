@@ -25,24 +25,16 @@ export function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-2xl"
         >
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium mb-6">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-primary"></span>
-            </span>
-            Open to Opportunities
-          </div>
-          
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white leading-[1.1] mb-6">
             Engineering <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">
-              Life-Saving
+              MedTech
             </span> <br />
-            Technology.
+            Solutions.
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-lg leading-relaxed">
-            Medical Device Engineer specializing in implantable electronics, regulatory compliance, and precision instrumentation.
+            Customer-focused medical device systems engineer specializing in R&D and robotics.
           </p>
           
           <div className="flex flex-wrap gap-4">
@@ -81,7 +73,7 @@ export function Hero() {
               <div className="absolute -bottom-6 -right-6 bg-card border border-white/10 p-4 rounded-lg shadow-xl z-20 backdrop-blur-md">
                 <div className="text-xs text-muted-foreground uppercase tracking-wider mb-1">Status</div>
                 <div className="font-mono text-sm font-bold flex items-center gap-2">
-                   <div className="h-2 w-2 bg-green-500 rounded-full"></div>
+                   <div className="h-2 w-2 bg-green-500 rounded-full animate-pulse"></div>
                    Available for Hire
                 </div>
               </div>
