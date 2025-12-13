@@ -73,8 +73,7 @@ export function Hero() {
                 className="relative z-10 transition-all duration-700 object-cover w-full h-auto"
                 style={{ 
                   maskImage: "radial-gradient(ellipse closest-side, black 10%, transparent 100%)",
-                  WebkitMaskImage: "radial-gradient(ellipse closest-side, black 10%, transparent 100%)",
-                  filter: "brightness(1.2)"
+                  WebkitMaskImage: "radial-gradient(ellipse closest-side, black 10%, transparent 100%)"
                 }}
               />
 
