@@ -1,4 +1,8 @@
-import { LucideIcon, Activity, Brain, Award, Globe, Cpu, Microscope } from "lucide-react";
+import { LucideIcon, Activity, Brain, Award, Globe, Cpu, Microscope, Settings, ShieldCheck, Users } from "lucide-react";
+import dentalRobotImg from "@assets/generated_images/dental_surgical_robot_system.png";
+import neuroImg from "@assets/generated_images/mri_guided_neurosurgery_system.png";
+import filtrationImg from "@assets/generated_images/cerebral_spinal_fluid_filtration_device.png";
+import miniRobotImg from "@assets/generated_images/miniature_surgical_robot.png";
 
 export interface Project {
   id: string;
@@ -7,6 +11,8 @@ export interface Project {
   tags: string[];
   image: string;
   link?: string;
+  role?: string;
+  company?: string;
 }
 
 export interface BlogPost {
@@ -31,87 +37,95 @@ export interface Accomplishment {
 export const projects: Project[] = [
   {
     id: "1",
-    title: "NeuroPulse Implant",
-    description: "Lead engineer for a Class III implantable pulse generator for chronic pain management. Reduced power consumption by 40% using novel circuit design.",
-    tags: ["Implantable", "Low Power Electronics", "FDA PMA"],
-    image: "https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80&w=1000",
+    title: "Dental Surgical Robot",
+    role: "Principal Systems Engineer",
+    company: "Perceptive Technologies",
+    description: "Owned full system architecture for a revolutionary dental surgical robot. Achieved sub-millimeter accuracy and successful First-In-Human (FIH) trials. Managed requirements, risk management (ISO 14971), and usability engineering files.",
+    tags: ["Robotics", "System Architecture", "FDA Submission", "FIH Trials"],
+    image: dentalRobotImg,
   },
   {
     id: "2",
-    title: "Smart Insulin Pump",
-    description: "Designed the fluid delivery mechanism for a next-gen insulin pump. Achieved <1% flow rate error variance across operating temperatures.",
-    tags: ["Fluid Dynamics", "Mechanical Design", "IEC 60601"],
-    image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80&w=1000",
+    title: "MRI-Guided Laser Ablation",
+    role: "Senior Systems Engineer",
+    company: "Monteris Medical",
+    description: "Led development of a novel ceramic cranial access port for neurosurgery to eliminate MR image artifacts. Collaborated with surgeons to define user needs and prioritize new product concepts for oncology and epilepsy treatments.",
+    tags: ["Neurosurgery", "MRI-Guided", "Product Development", "Clinical Collaboration"],
+    image: neuroImg,
   },
   {
     id: "3",
-    title: "Robotic Surgical Arm",
-    description: "Developed haptic feedback algorithms for a robotic surgical assistant, improving surgeon precision in microsurgery procedures.",
-    tags: ["Robotics", "Haptics", "C++", "Control Theory"],
-    image: "https://images.unsplash.com/photo-1530497610245-94d3c16cda28?auto=format&fit=crop&q=80&w=1000",
+    title: "CSF Filtration System",
+    role: "Senior R&D Engineer",
+    company: "Minnetronix Medical",
+    description: "Developed hardware for an extracorporeal cerebral spinal fluid filtration device. Successfully led the project to an IDE submission and functioned as field clinical engineer for the first-in-human trial.",
+    tags: ["Class III Device", "R&D", "Clinical Trials", "IDE Submission"],
+    image: filtrationImg,
   },
   {
     id: "4",
-    title: "Portable Ultrasound",
-    description: "Co-designed the thermal management system for a handheld ultrasound device, ensuring safe skin contact temperatures during prolonged use.",
-    tags: ["Thermal Analysis", "Product Design", "Ultrasound"],
-    image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=1000",
+    title: "Miniature Surgical Robot",
+    role: "Graduate Research Assistant",
+    company: "Surgical Robotics Lab",
+    description: "Designed and built a miniature surgical robot for single-port surgery. Led to a successful pre-clinical study, with the technology currently licensed by Virtual Incision ($146M raised).",
+    tags: ["Surgical Robotics", "Mechanical Design", "Pre-clinical Study"],
+    image: miniRobotImg,
   }
 ];
 
 export const blogPosts: BlogPost[] = [
   {
     id: "1",
-    title: "The Future of Bio-Electronics",
-    excerpt: "Exploring the intersection of biology and electronics, and how new materials are enabling seamless interfaces with the human nervous system.",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    title: "Navigating FDA Early Feasibility Studies",
+    excerpt: "Insights from recent interactions with the FDA regarding submission strategies for novel robotic surgical platforms.",
+    content: "Navigating the regulatory landscape for novel medical devices is a complex challenge. In my recent experience with dental surgical robotics, engaging with the FDA early through the Pre-Submission process was critical. <br/><br/> We focused on defining the scope of our Early Feasibility Studies (EFS) to demonstrate safety without the burden of a full pivotal trial immediately. Key takeaways include: <br/> 1. Clear definition of the device's mechanism of action. <br/> 2. robust risk management files (ISO 14971) that directly map to testing evidence. <br/> 3. Human factors considerations early in the design phase.",
     date: "Dec 12, 2024",
     readTime: "5 min read",
-    image: "/attached_assets/generated_images/abstract_tech_particles_for_blog.png", // Use generated image
-    tags: ["Bio-Electronics", "Future Tech"],
+    image: "/attached_assets/generated_images/abstract_tech_particles_for_blog.png",
+    tags: ["Regulatory", "FDA", "Robotics"],
   },
   {
     id: "2",
-    title: "Navigating FDA 510(k) Submissions",
-    excerpt: "A practical guide for engineers on preparing technical documentation for regulatory clearance, based on my experience with 3 successful submissions.",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    title: "System Architecture for Medical Robotics",
+    excerpt: "Balancing sub-millimeter precision requirements with usability and safety in a clinical environment.",
+    content: "When designing system architecture for surgical robots, precision is often the headline metric. However, the real challenge lies in integrating that precision with the chaotic reality of an operating room. <br/><br/> At Perceptive Technologies, we had to ensure our dental robot could maintain sub-millimeter accuracy while the patient was awake and moving. This required a tight loop between the vision system, the robotic control algorithms, and the user interface. We utilized a requirements management database (MatrixALM) to trace every clinical user need down to the specific software requirement.",
     date: "Nov 28, 2024",
     readTime: "8 min read",
     image: "https://images.unsplash.com/photo-1576091160550-217358c7db81?auto=format&fit=crop&q=80&w=1000",
-    tags: ["Regulatory", "FDA", "Career"],
+    tags: ["Systems Engineering", "Architecture", "Design Control"],
   },
   {
     id: "3",
-    title: "Design for Manufacturing in MedTech",
-    excerpt: "Why early DFM involvement saves millions in the long run. Case studies from recent projects involving injection molding and micro-machining.",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "From Engineer to Clinical Field Support",
+    excerpt: "Why every engineer should attend clinical cases: Lessons learned from the OR floor.",
+    content: "One of the most valuable experiences of my career was functioning as a field clinical engineer for a First-In-Human trial. Seeing your design used in a live procedure is humbling. <br/><br/> I learned that 'user-friendly' in a lab is very different from 'user-friendly' when a surgeon is wearing three layers of gloves and the patient's vitals are fluctuating. This experience directly influenced how I now approach requirements definition—prioritizing robust, forgiving interfaces over feature density.",
     date: "Oct 15, 2024",
     readTime: "6 min read",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1000",
-    tags: ["Manufacturing", "Engineering"],
+    tags: ["Clinical", "Career", "Human Factors"],
   }
 ];
 
 export const accomplishments: Accomplishment[] = [
   {
     id: "1",
-    title: "3 Patents Granted",
-    description: "Awarded patents for novel bio-sensing mechanisms and implantable antenna designs.",
+    title: "10+ US Patents",
+    description: "Named inventor on over 10 US patents issued or filed in the field of medical robotics and devices.",
     icon: Award,
-    year: "2020-2023"
+    year: "2012-Present"
   },
   {
     id: "2",
-    title: "5+ Successful FDA Clearances",
-    description: "Led technical teams through successful 510(k) and PMA regulatory submissions.",
+    title: "FIH Trial Success",
+    description: "Key stakeholder in successful First-In-Human trials for novel dental robotics and neuro-filtration devices.",
     icon: Activity,
-    year: "2018-Present"
+    year: "Multiple"
   },
   {
     id: "3",
-    title: "IEEE Senior Member",
-    description: "Recognized for significant contributions to the field of biomedical engineering.",
-    icon: Globe,
-    year: "2022"
+    title: "Systems Leadership",
+    description: "Principal Systems Engineer leading cross-functional teams and defining architecture for complex robotic platforms.",
+    icon: Users,
+    year: "12+ Years"
   }
 ];

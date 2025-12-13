@@ -28,9 +28,14 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
             />
           </div>
           <CardContent className="p-8 flex flex-col justify-center">
+            <div className="mb-2">
+                 <h4 className="text-sm font-mono text-primary uppercase tracking-wider">{project.company}</h4>
+                 <div className="text-xs text-muted-foreground">{project.role}</div>
+            </div>
+            
             <h3 className="text-2xl font-bold mb-3 group-hover:text-primary transition-colors flex items-center gap-2">
               {project.title}
-              <ExternalLink className="h-4 w-4 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all" />
+              {project.link && <ExternalLink className="h-4 w-4 opacity-0 -translate-y-1 translate-x-1 group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-0 transition-all" />}
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
               {project.description}
