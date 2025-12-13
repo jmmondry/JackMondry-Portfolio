@@ -19,12 +19,12 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
     >
       <Card className="group overflow-hidden bg-card border-white/5 hover:border-primary/50 transition-all duration-500">
         <div className="grid md:grid-cols-2 gap-0">
-          <div className="relative h-64 md:h-auto overflow-hidden">
+          <div className="relative h-64 md:h-auto overflow-hidden flex items-center justify-center bg-background/50">
             <div className="absolute inset-0 bg-primary/20 mix-blend-multiply z-10 group-hover:bg-transparent transition-colors duration-500"></div>
             <img 
               src={project.image} 
               alt={project.title} 
-              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <CardContent className="p-8 flex flex-col justify-center">
