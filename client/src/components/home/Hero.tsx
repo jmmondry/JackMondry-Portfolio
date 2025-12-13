@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import heroBg from "@assets/generated_images/abstract_medical_engineering_hero_background.png";
-import portraitImg from "@assets/generated_images/professional_portrait_of_medical_engineer.png";
+import portraitImg from "@assets/Gemini_Generated_Image_jegikpjegikpjegi_1765653814174.png";
 
 export function Hero() {
   return (
@@ -73,8 +73,9 @@ export function Hero() {
               
               <img 
                 src={portraitImg} 
-                alt="Medical Device Engineer" 
-                className="relative z-10 rounded-xl shadow-2xl grayscale hover:grayscale-0 transition-all duration-700 object-cover w-full h-auto border border-white/10"
+                alt="Jack Mondry" 
+                className="relative z-10 rounded-xl shadow-2xl transition-all duration-700 object-cover w-full h-auto border border-white/10 invert contrast-125 brightness-90 mix-blend-screen"
+                style={{ filter: "invert(1) grayscale(1) contrast(1.2) brightness(0.8)" }}
               />
 
               {/* Technical Caption */}
