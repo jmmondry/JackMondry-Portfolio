@@ -1,4 +1,4 @@
-import { Linkedin, Github, Mail, Twitter } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 import { Link } from "wouter";
 
 export function Footer() {
@@ -9,9 +9,9 @@ export function Footer() {
           <div className="md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <span className="bg-primary/20 text-primary w-8 h-8 flex items-center justify-center rounded-lg font-mono text-sm">
-                ME
+                JM
               </span>
-              <span className="font-bold text-lg text-foreground">MedEngineer</span>
+              <span className="font-bold text-lg text-foreground">Jack Mondry</span>
             </div>
             <p className="text-muted-foreground max-w-sm">
               Designing the future of healthcare technology. Specialized in Class III medical devices, implantables, and bio-electronic systems.
@@ -34,12 +34,6 @@ export function Footer() {
               <a href="#" className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200">
-                <Github className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200">
-                <Twitter className="h-5 w-5" />
-              </a>
               <a href="/contact" className="text-muted-foreground hover:text-primary transition-colors hover:scale-110 transform duration-200">
                 <Mail className="h-5 w-5" />
               </a>
@@ -48,7 +42,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-border mt-10 pt-6 flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
-          <p>© 2024 MedEngineer Portfolio. All rights reserved.</p>
+          <p>© 2024 Jack Mondry. All rights reserved.</p>
           <p className="mt-2 md:mt-0">Designed & Built with React</p>
         </div>
       </div>

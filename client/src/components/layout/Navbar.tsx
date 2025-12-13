@@ -1,5 +1,5 @@
 import { Link, useLocation } from "wouter";
-import { Menu, X, Linkedin, Github, Mail } from "lucide-react";
+import { Menu, X, Linkedin } from "lucide-react";
 import { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
@@ -36,10 +36,10 @@ export function Navbar() {
         <Link href="/">
           <a className="text-xl font-bold tracking-tight flex items-center gap-2 group">
             <span className="bg-primary text-primary-foreground w-8 h-8 flex items-center justify-center rounded-lg font-mono text-sm group-hover:scale-110 transition-transform">
-              ME
+              JM
             </span>
             <span className="hidden sm:inline-block font-mono text-foreground/80 group-hover:text-primary transition-colors">
-              MedEngineer
+              Jack Mondry
             </span>
           </a>
         </Link>
@@ -62,9 +62,6 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-primary">
               <Linkedin className="h-4 w-4" />
-            </Button>
-            <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-primary">
-              <Github className="h-4 w-4" />
             </Button>
           </div>
         </div>
@@ -98,9 +95,6 @@ export function Navbar() {
             <div className="border-t border-border pt-4 flex gap-4">
               <Button variant="outline" size="sm" className="w-full gap-2">
                 <Linkedin className="h-4 w-4" /> LinkedIn
-              </Button>
-              <Button variant="outline" size="sm" className="w-full gap-2">
-                <Github className="h-4 w-4" /> GitHub
               </Button>
             </div>
           </div>
