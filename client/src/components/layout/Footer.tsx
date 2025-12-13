@@ -14,7 +14,7 @@ export function Footer() {
               <span className="font-bold text-lg text-foreground">Jack Mondry</span>
             </div>
             <p className="text-muted-foreground max-w-sm">
-              Designing the future of healthcare technology. Specialized in Class III medical devices, implantables, and bio-electronic systems.
+              Designing the future of healthcare technology, specializing in complex electromechanical and robotic systems.
             </p>
           </div>
           
