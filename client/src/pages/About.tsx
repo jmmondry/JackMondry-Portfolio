@@ -2,7 +2,7 @@ import { Layout } from "@/components/layout/Layout";
 import { motion } from "framer-motion";
 import workspaceImg from "@assets/generated_images/medical_device_engineer_workspace.png";
 import { Button } from "@/components/ui/button";
-import { Download, Mail, Award, BookOpen, User } from "lucide-react";
+import { Mail, Award, BookOpen, User } from "lucide-react";
 import { Link } from "wouter";
 
 export default function About() {
@@ -58,10 +58,7 @@ export default function About() {
               </p>
             </div>
 
-            <div className="mt-10 flex gap-4">
-              <Button size="lg" className="gap-2">
-                <Download className="h-4 w-4" /> Download Resume
-              </Button>
+            <div className="mt-10">
               <Link href="/contact">
                 <Button size="lg" variant="outline" className="gap-2">
                   <Mail className="h-4 w-4" /> Get in Touch
