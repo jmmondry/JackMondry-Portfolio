@@ -66,7 +66,7 @@ export const projects: Project[] = [
     id: "4",
     title: "Miniature Surgical Robot",
     role: "Graduate Research Assistant",
-    company: "Surgical Robotics Lab",
+    company: "University of Nebraska Surgical Robotics Lab",
     description: "Designed and built a miniature surgical robot for single-port surgery. Led to a successful pre-clinical study, with the technology currently licensed by Virtual Incision ($146M raised).",
     tags: ["Surgical Robotics", "Mechanical Design", "Pre-clinical Study"],
     image: miniRobotImg,
