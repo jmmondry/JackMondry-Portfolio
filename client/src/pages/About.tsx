@@ -83,7 +83,7 @@ export default function About() {
                             <div className="absolute -left-[39px] top-1 h-5 w-5 rounded-full bg-background border-2 border-primary"></div>
                             <h3 className="text-xl font-bold">University of Nebraska-Lincoln</h3>
                             <p className="text-primary font-mono text-sm mb-2">Master of Science in Mechanical Engineering</p>
-                            <p className="text-muted-foreground">Specialization in Surgical Robotics | Aug 2012</p>
+                            <p className="text-muted-foreground">Specialization in Surgical Robotics</p>
                         </div>
                          <div className="relative">
                             <div className="absolute -left-[39px] top-1 h-5 w-5 rounded-full bg-background border-2 border-muted"></div>
