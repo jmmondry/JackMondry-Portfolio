@@ -1,6 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { motion } from "framer-motion";
-import workspaceImg from "@assets/generated_images/medical_device_engineer_workspace.png";
+import workspaceImg from "@assets/stock_images/professional_enginee_5e2a0c4e.jpg";
 import { Button } from "@/components/ui/button";
 import { Mail, Award, BookOpen, User } from "lucide-react";
 import { Link } from "wouter";
@@ -109,7 +109,7 @@ export default function About() {
                             "AAMI Human Factors for Medical Devices",
                             "Certified SolidWorks Professional (CSWP)",
                             "Engineer-in-Training (EIT) Certification",
-                            "Product Manager Nanodegree (Udacity)"
+                            "Trained in Product Management"
                         ].map((cert, i) => (
                             <div key={i} className="flex items-center gap-4 p-4 bg-card/50 border border-white/5 rounded-lg">
                                 <div className="h-2 w-2 bg-accent rounded-full"></div>
@@ -125,8 +125,8 @@ export default function About() {
                 <h2 className="text-3xl font-bold mb-12 text-center">Core Competencies</h2>
                 <div className="grid md:grid-cols-4 gap-8">
                     {[
-                        { category: "Systems Engineering", skills: ["Requirements Mgmt", "System Architecture", "Risk Mgmt (ISO 14971)", "V&V"] },
-                        { category: "Regulatory", skills: ["Design Controls (21 CFR 820)", "FDA Submissions", "Usability (IEC 62366)", "Clinical Collaboration"] },
+                        { category: "Systems Engineering", skills: ["Requirements Mgmt", "System Architecture", "Risk Mgmt (ISO 14971)", "V & V"] },
+                        { category: "Regulatory", skills: ["Design Controls", "FDA Submissions", "Usability (IEC 62366)", "Clinical Collaboration"] },
                         { category: "Technical", skills: ["Robotics", "Mechanical Design", "SolidWorks", "Mechanism Design"] },
                         { category: "Leadership", skills: ["Cross-Functional Leadership", "Team Management", "Strategic Development", "Mentorship"] }
                     ].map((group, idx) => (
