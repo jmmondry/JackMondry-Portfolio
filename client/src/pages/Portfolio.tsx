@@ -14,9 +14,7 @@ export default function Portfolio() {
           className="max-w-3xl mb-16"
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-6">Portfolio</h1>
-          <p className="text-xl text-muted-foreground leading-relaxed">
-            A collection of engineering projects spanning implantable devices, diagnostic equipment, and robotic surgical systems. Each project represents a unique challenge in reliability, precision, and patient safety.
-          </p>
+          <p className="text-xl text-muted-foreground leading-relaxed">A collection of engineering projects spanning from neurosurgery to dentistry with novel technology development at their core. Each project represents a unique challenge in user needs, risk management, and system architecture.</p>
         </motion.div>
 
         <div className="grid gap-12">
