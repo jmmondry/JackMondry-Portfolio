@@ -48,7 +48,7 @@ export default function About() {
                 
                 <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                   <p>
-                    I am a Principal Systems Engineer with over 12 years of experience in the medical device industry, specializing in <span className="text-foreground font-medium">surgical robotics</span> and <span className="text-foreground font-medium">complex electromechanical systems</span>.
+                    I am a dynamic technical leader with over 12 years of experience in the medical device industry, specializing in <span className="text-foreground font-medium">surgical robotics</span> and <span className="text-foreground font-medium">complex electromechanical systems</span>.
                   </p>
                   <p>
                     My career has been defined by bridging the gap between technical innovation and clinical reality. From designing miniature surgical robots at the University of Nebraska-Lincoln to leading system architecture for a dental robotic platform at Perceptive Technologies, I thrive in cross-functional environments.
