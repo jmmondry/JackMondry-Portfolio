@@ -2,7 +2,7 @@ import { LucideIcon, Activity, Brain, Award, Globe, Cpu, Microscope, Settings, S
 import dentalRobotImg from "@assets/perceptive_dental_robot.jpg";
 import neuroImg from "@assets/monteris_mri_guided_ablation.jpg";
 import filtrationImg from "@assets/pharaoh_neuro_neurapheresis_v2.png";
-import miniRobotImg from "@assets/generated_images/miniature_surgical_robot.png";
+import miniRobotImg from "@assets/miniature_surgical_robot_iso.jpg";
 
 export interface Project {
   id: string;
