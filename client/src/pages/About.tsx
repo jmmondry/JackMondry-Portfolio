@@ -59,11 +59,11 @@ export default function About() {
                 </div>
 
                 <div className="mt-10">
-                  <Link href="/contact">
+                  <a href="https://www.linkedin.com/in/jackmondry/" target="_blank" rel="noopener noreferrer">
                     <Button size="lg" variant="outline" className="gap-2">
-                      <Mail className="h-4 w-4" /> Get in Touch
+                      <Mail className="h-4 w-4" /> Connect on LinkedIn
                     </Button>
-                  </Link>
+                  </a>
                 </div>
               </motion.div>
             </div>

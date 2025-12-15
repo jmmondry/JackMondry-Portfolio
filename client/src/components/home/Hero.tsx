@@ -43,11 +43,11 @@ export function Hero() {
                 View Work <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
-            <Link href="/contact">
+            <a href="https://www.linkedin.com/in/jackmondry/" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="h-12 px-8 text-base border-primary/20 hover:bg-primary/10 hover:text-primary">
-                Contact Me
+                Connect on LinkedIn
               </Button>
-            </Link>
+            </a>
           </div>
         </motion.div>
 
