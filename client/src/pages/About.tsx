@@ -1,6 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { motion } from "framer-motion";
-import workspaceImg from "@assets/stock_images/professional_enginee_5e2a0c4e.jpg";
+import workspaceImg from "@assets/engineering_workspace.jpg";
 import { Button } from "@/components/ui/button";
 import { Mail, Award, BookOpen, User } from "lucide-react";
 import { Link } from "wouter";
@@ -20,7 +20,10 @@ export default function About() {
                   <img 
                     src={workspaceImg} 
                     alt="Workspace" 
-                    className="relative rounded-2xl border border-white/10 shadow-2xl w-full grayscale hover:grayscale-0 transition-all duration-700"
+                    className="relative rounded-2xl border border-white/10 shadow-2xl w-full transition-all duration-700"
+                    style={{ 
+                      filter: "saturate(0.6) hue-rotate(180deg) brightness(0.9) contrast(1.1)",
+                    }}
                   />
                 </div>
                 
