@@ -1,6 +1,6 @@
 import { Layout } from "@/components/layout/Layout";
 import { motion } from "framer-motion";
-import workspaceImg from "@assets/engineering_workspace.jpg";
+import workspaceImg from "@assets/jack_sketch_portrait.png";
 import { Button } from "@/components/ui/button";
 import { Mail, Award, BookOpen, User } from "lucide-react";
 import { Link } from "wouter";
@@ -19,11 +19,8 @@ export default function About() {
                   <div className="absolute -inset-4 bg-gradient-to-r from-primary to-accent opacity-20 blur-xl rounded-2xl"></div>
                   <img 
                     src={workspaceImg} 
-                    alt="Workspace" 
+                    alt="Portrait" 
                     className="relative rounded-2xl border border-white/10 shadow-2xl w-full transition-all duration-700"
-                    style={{ 
-                      filter: "saturate(0.6) hue-rotate(180deg) brightness(0.9) contrast(1.1)",
-                    }}
                   />
                 </div>
                 
