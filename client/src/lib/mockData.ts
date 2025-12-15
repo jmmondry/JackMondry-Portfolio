@@ -117,7 +117,7 @@ export const accomplishments: Accomplishment[] = [
   {
     id: "2",
     title: "FIH Trial Success",
-    description: "Key stakeholder in successful First-In-Human trials for novel dental robotics and neuro-filtration devices.",
+    description: "Key team member of multiple successful First-In-Human clinical trials for groundbreaking medical devices.",
     icon: Activity,
     year: "Multiple"
   },
