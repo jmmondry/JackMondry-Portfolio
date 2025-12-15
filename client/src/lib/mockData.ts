@@ -110,7 +110,7 @@ export const accomplishments: Accomplishment[] = [
   {
     id: "1",
     title: "10+ US Patents",
-    description: "Named inventor on over 10 US patents issued or filed in the field of medical robotics and devices.",
+    description: "Named inventor on over 10 US patents issued or filed in the field of medical technology.",
     icon: Award,
     year: "Ongoing"
   },
