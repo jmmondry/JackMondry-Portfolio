@@ -18,8 +18,8 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
       transition={{ delay: index * 0.1 }}
     >
       <Card className="group overflow-hidden bg-card border-white/5 hover:border-primary/50 transition-all duration-500">
-        <div className="grid md:grid-cols-2 gap-0">
-          <div className="relative h-64 md:h-auto overflow-hidden flex items-center justify-center bg-background/50">
+        <div className="grid md:grid-cols-2 gap-0 h-96">
+          <div className="relative overflow-hidden flex items-center justify-center bg-background/50">
             <div className="absolute inset-0 bg-primary/20 mix-blend-multiply z-10 group-hover:bg-transparent transition-colors duration-500"></div>
             <img 
               src={project.image} 
@@ -27,7 +27,7 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
               className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
             />
           </div>
-          <CardContent className="p-8 flex flex-col justify-center">
+          <CardContent className="p-8 flex flex-col justify-center h-full">
             <div className="mb-2">
                  <h4 className="text-sm font-mono text-primary uppercase tracking-wider">{project.company}</h4>
                  <div className="text-xs text-muted-foreground">{project.role}</div>
