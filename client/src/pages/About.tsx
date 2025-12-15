@@ -42,7 +42,7 @@ export default function About() {
                 transition={{ duration: 0.6, delay: 0.2 }}
               >
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
-                    <User className="h-4 w-4" /> Principal Systems Engineer
+                    <User className="h-4 w-4" /> Dynamic Technical Leader
                 </div>
                 <h1 className="text-4xl md:text-5xl font-bold mb-8">Engineering for Impact</h1>
                 
