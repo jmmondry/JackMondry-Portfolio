@@ -21,6 +21,7 @@ export default function About() {
                     src={workspaceImg} 
                     alt="Portrait" 
                     className="relative rounded-2xl border border-white/10 shadow-2xl w-full transition-all duration-700"
+                    style={{ transform: "scale(1.15)", transformOrigin: "center" }}
                   />
                 </div>
                 
